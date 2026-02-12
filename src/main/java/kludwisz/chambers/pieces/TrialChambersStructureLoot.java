@@ -225,6 +225,21 @@ public class TrialChambersStructureLoot {
 			Collections.emptyList(),
 			Collections.emptyList(),
 			Collections.emptyList(),
-			Collections.emptyList()  // empty
+			Collections.emptyList(),  // empty
+
+			// new code: encounters
+			// all empty except two dispensers in 4
+			Collections.emptyList(),
+			Collections.emptyList(),
+			Collections.emptyList(),
+			Arrays.asList(
+					new Pair<>( new BPos(1,15,14), TrialChambersLootTables.UNIMPLEMENTED.get()),
+					new Pair<>( new BPos(1,15,13), TrialChambersLootTables.UNIMPLEMENTED.get())
+			),
+			Collections.emptyList(),
+
+			// trap has none
+			Collections.emptyList()
+			
 	);
 }

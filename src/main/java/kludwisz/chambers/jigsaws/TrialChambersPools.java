@@ -136,7 +136,17 @@ public class TrialChambersPools {
 					new Pair<>(135, 1),
 					new Pair<>(142, 1),
 					new Pair<>(143, 1),
-					new Pair<>(144, 1)
+					new Pair<>(144, 1),
+
+					// new encounters and traps:
+					new Pair<>(171, 1),
+					new Pair<>(172, 1),
+					new Pair<>(173, 1),
+					new Pair<>(174, 1),
+					new Pair<>(175, 1),
+					new Pair<>(176, 1)
+
+
 			),
 
 			/* chamber/addon id = 5 */Arrays.asList(
@@ -220,8 +230,10 @@ public class TrialChambersPools {
 					new Pair<>(61, 1),
 					new Pair<>(62, 1),
 					new Pair<>(63, 1),
-					new Pair<>(64, 1),
-					new Pair<>(65, 1),
+					// I think these are slanted 4 and 5 which are removed. removing them from the pools should be sufficient
+
+					//new Pair<>(64, 1),
+					//new Pair<>(65, 1),
 					new Pair<>(67, 1),
 					new Pair<>(68, 1),
 					new Pair<>(69, 1),

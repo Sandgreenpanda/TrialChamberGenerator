@@ -44,7 +44,12 @@ public class TrialChambersGenerator {
     private final BlockBox rootBox = BlockBox.empty();
     private final TrialChambersGenerator.BlockJigsawInfo[] parentJigsawsArr = new TrialChambersGenerator.BlockJigsawInfo[50];
     private final TrialChambersGenerator.BlockJigsawInfo[] childPieceJigsawBlocksArr = new TrialChambersGenerator.BlockJigsawInfo[50];
-    private final int[] childTemplatesArr = new int[1229]; // don't even ask...
+
+
+
+    //private final int[] childTemplatesArr = new int[1229]; // don't even ask...
+    private final int[] childTemplatesArr = new int[1235]; // i ain't gonna ask, but the error says 1235
+
     private final BlockRotation[] childRotationsArr = new BlockRotation[4];
     private final MutableBlockPos childJigsawPos = new MutableBlockPos();
     private final BlockBox childPieceMinBox = BlockBox.empty();

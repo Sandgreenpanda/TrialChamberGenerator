@@ -179,6 +179,16 @@ public class TrialChambersPieceNames {
 			"spawner/small_melee/cave_spider",  /*id = 167*/
 			"spawner/small_melee/silverfish",  /*id = 168*/
 			"spawner/small_melee/slime",  /*id = 169*/
-			"empty"  /*id = 170*/
+			"empty",  /*id = 170*/
+
+			// new encounters:
+			"hallway/encounter_1",  /*id = 171*/
+			"hallway/encounter_2",  /*id = 172*/
+			"hallway/encounter_3",  /*id = 173*/
+			"hallway/encounter_4",  /*id = 174*/
+			"hallway/encounter_5",  /*id = 175*/
+
+			// trap
+			"hallway/trapped_staircase" /*id = 176*/
 	);
 }

@@ -1318,7 +1318,96 @@ public class TrialChambersJigsawBlocks {
 					new JigsawBlock(45, JointType.ALIGNED, "minecraft:spawner", "minecraft:empty", BlockDirection.UP, BlockDirection.NORTH, new BPos(1,1,0), 0, 0)
 			),
 			// empty
-            Collections.emptyList()
+            Collections.emptyList(),
+
+
+			// new encounters:
+
+		
+			Arrays.asList(
+    				new JigsawBlock(45, JointType.ROLLABLE, "minecraft:in_connector", "minecraft:empty", BlockDirection.EAST, BlockDirection.UP, new BPos(11,2,13), 0, 0),
+    				new JigsawBlock(4, JointType.ROLLABLE, "minecraft:empty", "minecraft:in_connector", BlockDirection.WEST, BlockDirection.UP, new BPos(0,7,13), 0, 0),
+    				new JigsawBlock(25, JointType.ALIGNED, "minecraft:empty", "minecraft:spawner_connector", BlockDirection.WEST, BlockDirection.UP, new BPos(7,7,8), 1, 1),
+   					new JigsawBlock(22, JointType.ALIGNED, "minecraft:empty", "minecraft:reward_connector", BlockDirection.EAST, BlockDirection.UP, new BPos(8,7,13), 0, 0)
+			),
+			Arrays.asList(
+    				new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.EAST, new BPos(1,2,10), 0, 0),
+    				new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.SOUTH, new BPos(3,2,1), 0, 0),
+    				new JigsawBlock(26, JointType.ALIGNED, "minecraft:empty", "minecraft:spawner_connector", BlockDirection.EAST, BlockDirection.UP, new BPos(4,2,4), 1, 1),
+    				new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.NORTH, new BPos(5,2,12), 0, 0),
+    				new JigsawBlock(22, JointType.ALIGNED, "minecraft:empty", "minecraft:reward_connector", BlockDirection.NORTH, BlockDirection.UP, new BPos(9,2,4), 0, 0),
+    				new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.NORTH, new BPos(10,2,12), 0, 0),
+    				new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(12,2,3), 0, 0),
+    				new JigsawBlock(45, JointType.ROLLABLE, "minecraft:in_connector", "minecraft:empty", BlockDirection.EAST, BlockDirection.UP, new BPos(13,2,9), 0, 0),
+    				new JigsawBlock(4, JointType.ROLLABLE, "minecraft:empty", "minecraft:in_connector", BlockDirection.NORTH, BlockDirection.UP, new BPos(9,7,0), 0, 0)
+			),
+			Arrays.asList(
+                    new JigsawBlock(45, JointType.ROLLABLE, "minecraft:in_connector", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(4,2,0), 0, 0),
+                    new JigsawBlock(22, JointType.ALIGNED, "minecraft:empty", "minecraft:reward_connector", BlockDirection.SOUTH, BlockDirection.UP, new BPos(4,2,4), 0, 0),
+                    new JigsawBlock(25, JointType.ALIGNED, "minecraft:empty", "minecraft:spawner_connector", BlockDirection.SOUTH, BlockDirection.UP, new BPos(4,15,3), 1, 1),
+                    new JigsawBlock(4, JointType.ROLLABLE, "minecraft:empty", "minecraft:in_connector", BlockDirection.WEST, BlockDirection.UP, new BPos(0,17,4), 0, 0)
+            ),
+			Arrays.asList(
+                    new JigsawBlock(22, JointType.ALIGNED, "minecraft:empty", "minecraft:reward_connector", BlockDirection.EAST, BlockDirection.UP, new BPos(4,2,9), 0, 0),
+                    new JigsawBlock(4, JointType.ROLLABLE, "minecraft:empty", "minecraft:in_connector", BlockDirection.EAST, BlockDirection.UP, new BPos(13,10,14), 0, 0),
+                    new JigsawBlock(45, JointType.ROLLABLE, "minecraft:in_connector", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(9,15,0), 0, 0),
+                    new JigsawBlock(29, JointType.ALIGNED, "minecraft:empty", "minecraft:spawner_connector", BlockDirection.EAST, BlockDirection.UP, new BPos(9,15,9), 1, 1)
+            ),
+			Arrays.asList(
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.WEST, BlockDirection.UP, new BPos(11,0,10), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.WEST, BlockDirection.UP, new BPos(11,0,11), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.WEST, BlockDirection.UP, new BPos(11,0,12), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.WEST, BlockDirection.UP, new BPos(11,0,13), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.NORTH, BlockDirection.UP, new BPos(13,0,8), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.SOUTH, BlockDirection.UP, new BPos(13,0,15), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.NORTH, BlockDirection.UP, new BPos(14,0,8), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.SOUTH, BlockDirection.UP, new BPos(14,0,15), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.NORTH, BlockDirection.UP, new BPos(15,0,8), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.EAST, BlockDirection.UP, new BPos(15,0,9), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.EAST, BlockDirection.UP, new BPos(15,0,10), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.SOUTH, BlockDirection.UP, new BPos(15,0,15), 0, 0),
+                    new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.SOUTH, new BPos(13,2,6), 0, 0),
+                    new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.NORTH, new BPos(15,2,17), 0, 0),
+                    new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(17,2,8), 0, 0),
+                    new JigsawBlock(45, JointType.ROLLABLE, "minecraft:in_connector", "minecraft:empty", BlockDirection.EAST, BlockDirection.UP, new BPos(18,2,14), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.WEST, BlockDirection.UP, new BPos(3,4,3), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.WEST, BlockDirection.UP, new BPos(3,4,4), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.WEST, BlockDirection.UP, new BPos(3,4,5), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.WEST, BlockDirection.UP, new BPos(3,4,8), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.WEST, BlockDirection.UP, new BPos(3,4,9), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.WEST, BlockDirection.UP, new BPos(3,4,10), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.WEST, BlockDirection.UP, new BPos(3,4,13), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.WEST, BlockDirection.UP, new BPos(3,4,14), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.WEST, BlockDirection.UP, new BPos(3,4,15), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.NORTH, BlockDirection.UP, new BPos(8,4,3), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.NORTH, BlockDirection.UP, new BPos(9,4,3), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.NORTH, BlockDirection.UP, new BPos(10,4,3), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.SOUTH, BlockDirection.UP, new BPos(13,4,20), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.SOUTH, BlockDirection.UP, new BPos(14,4,20), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.EAST, BlockDirection.UP, new BPos(15,4,18), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.EAST, BlockDirection.UP, new BPos(15,4,19), 0, 0),
+                    new JigsawBlock(2, JointType.ALIGNED, "minecraft:empty", "minecraft:decor", BlockDirection.SOUTH, BlockDirection.UP, new BPos(15,4,20), 0, 0),
+                    new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.EAST, new BPos(1,6,5), 0, 0),
+                    new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.EAST, new BPos(1,6,10), 0, 0),
+                    new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.EAST, new BPos(1,6,15), 0, 0),
+                    new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.EAST, new BPos(1,6,20), 0, 0),
+                    new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.SOUTH, new BPos(3,6,1), 0, 0),
+                    new JigsawBlock(4, JointType.ROLLABLE, "minecraft:empty", "minecraft:in_connector", BlockDirection.SOUTH, BlockDirection.UP, new BPos(4,6,23), 0, 0),
+                    new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.SOUTH, new BPos(8,6,1), 0, 0),
+                    new JigsawBlock(26, JointType.ALIGNED, "minecraft:empty", "minecraft:spawner_connector", BlockDirection.SOUTH, BlockDirection.UP, new BPos(9,6,5), 1, 1),
+                    new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.NORTH, new BPos(10,6,22), 0, 0),
+                    new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.SOUTH, new BPos(13,6,1), 0, 0),
+                    new JigsawBlock(22, JointType.ALIGNED, "minecraft:empty", "minecraft:reward_connector", BlockDirection.EAST, BlockDirection.UP, new BPos(14,6,4), 0, 0),
+                    new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.NORTH, new BPos(15,6,22), 0, 0),
+                    new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(17,6,18), 0, 0)
+            ),
+
+			// trap
+
+			Arrays.asList(
+    				new JigsawBlock(4, JointType.ROLLABLE, "minecraft:empty", "minecraft:in_connector", BlockDirection.EAST, BlockDirection.UP, new BPos(10, 13, 2), 0, 0),
+    				new JigsawBlock(45, JointType.ROLLABLE, "minecraft:lower_corridor_connector", "minecraft:empty", BlockDirection.EAST, BlockDirection.UP, new BPos(10, 23, 2), 0, 0)
+			)
     );
 
 
@@ -1351,7 +1440,7 @@ public class TrialChambersJigsawBlocks {
 			for (JigsawBlock parentJigsaw : JIGSAW_BLOCKS_V2.get(i)) {
 				BlockBox minBox = targetMinBoxes.get(parentJigsaw.targetName);
 
-				for (Pair<Integer, Integer> pair : TrialChambersPools.get(parentJigsaw.poolType)) {
+				for (Pair<Integer, Integer> pair : TrialChambersPools.get(parentJigsaw.poolType)) {// line 1443
 					int childPieceId = pair.getFirst();
 					if (childPieceId == TrialChambersGenerator.EMPTY_PIECE_ID) continue;
 

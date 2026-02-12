@@ -181,7 +181,20 @@ public class TrialChambersStructureSize {
 			new BPos(3,2,3),         /* 167 spawner/small_melee/cave_spider */
 			new BPos(3,2,3),         /* 168 spawner/small_melee/silverfish */
 			new BPos(3,2,3),         /* 169 spawner/small_melee/slime */
-    		new BPos(-1,-1,-1)		 /* 170 empty */
+    		new BPos(-1,-1,-1),		 /* 170 empty */
+
+			// new encounters:
+
+			new BPos(12,11,17),
+			new BPos(14,11,14),
+			new BPos(9,22,9),
+			new BPos(14,22,19),
+    		new BPos(19,10,24),
+
+			// new trap:
+			new BPos(11,27,5)
+
+
     );
 }
 
