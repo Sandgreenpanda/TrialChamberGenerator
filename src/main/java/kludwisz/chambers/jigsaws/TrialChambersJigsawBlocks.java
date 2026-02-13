@@ -1474,6 +1474,11 @@ public class TrialChambersJigsawBlocks {
 			),
 			Collections.singletonList(
 					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:bed", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(0,1,0), 0, 0)
+			),
+
+			//disposal
+			Collections.singletonList(
+					new JigsawBlock(45, JointType.ALIGNED, "minecraft:disposal", "minecraft:empty", BlockDirection.DOWN, BlockDirection.EAST, new BPos(0,2,0), 0, 0)
 			)
     );
 

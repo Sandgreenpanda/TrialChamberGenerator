@@ -213,7 +213,10 @@ public class TrialChambersStructureSize {
 			new BPos(2,2,1),
 			new BPos(2,2,1),
 			new BPos(2,2,1),
-			new BPos(2,2,1)
+			new BPos(2,2,1),
+
+			//disposal
+			new BPos(1,4,3)
 			
 
 

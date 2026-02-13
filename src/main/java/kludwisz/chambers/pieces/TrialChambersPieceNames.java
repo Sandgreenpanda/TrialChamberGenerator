@@ -207,7 +207,11 @@ public class TrialChambersPieceNames {
 			"decor/purple_bed",  /*id = 189*/
 			"decor/red_bed",  /*id = 190*/
 			"decor/white_bed",  /*id = 191*/
-			"decor/yellow_bed"   /*id = 192*/
+			"decor/yellow_bed",   /*id = 192*/
+
+			//disposal
+
+			"decor/disposal"   /*id = 193*/
 
 	);
 }

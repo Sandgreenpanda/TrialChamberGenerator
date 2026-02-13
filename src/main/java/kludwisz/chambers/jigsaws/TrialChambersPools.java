@@ -33,7 +33,7 @@ public class TrialChambersPools {
 
 			45,  /* chamber/entrance_cap id = 8 */
 
-			
+
 			45,  /* chamber/eruption id = 9 */
 			45,  /* chamber/pedestal id = 10 */
 			45,  /* chamber/slanted id = 11 */
@@ -109,7 +109,10 @@ public class TrialChambersPools {
 					new Pair<>(117, 1),
 					new Pair<>(118, 1),
 					new Pair<>(119, 1),
-					new Pair<>(115, 2)
+					new Pair<>(115, 2),
+					// new disposal
+					new Pair<>(193, 1)
+
 			),
 
 			/* entrance id = 3 */Arrays.asList(

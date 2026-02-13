@@ -257,7 +257,12 @@ public class TrialChambersStructureLoot {
 			Collections.emptyList(), //13
 			Collections.emptyList(), //14
 			Collections.emptyList(), //15
-			Collections.emptyList()  //16
+			Collections.emptyList(),  //16
+
+			//disposal
+			Collections.emptyList()
+
+
 			
 	);
 }
