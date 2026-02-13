@@ -28,7 +28,12 @@ public class TrialChambersPools {
 			45,  /* chamber/addon id = 5 */
 			45,  /* chamber/assembly id = 6 */
 			45,  /* chamber/end id = 7 */
-			8,  /* chamber/entrance_cap id = 8 */
+
+			// I think the entrance was changed to be empty. don't ask me why.
+
+			45,  /* chamber/entrance_cap id = 8 */
+
+			
 			45,  /* chamber/eruption id = 9 */
 			45,  /* chamber/pedestal id = 10 */
 			45,  /* chamber/slanted id = 11 */
