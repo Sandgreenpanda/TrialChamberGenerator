@@ -1213,21 +1213,35 @@ public class TrialChambersJigsawBlocks {
 					new JigsawBlock(1, JointType.ROLLABLE, "minecraft:empty", "minecraft:first_corridor", BlockDirection.SOUTH, BlockDirection.UP, new BPos(9,0,21), 1, 1),
 					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:intersection", "minecraft:empty", BlockDirection.EAST, BlockDirection.UP, new BPos(21,0,9), 1, 1),
 					new JigsawBlock(23, JointType.ROLLABLE, "minecraft:empty", "minecraft:ominous_vault", BlockDirection.SOUTH, BlockDirection.UP, new BPos(9,4,14), 0, 0),
-					new JigsawBlock(4, JointType.ROLLABLE, "minecraft:empty", "minecraft:in_connector", BlockDirection.WEST, BlockDirection.UP, new BPos(0,16,9), 0, 0)
-			),
+					new JigsawBlock(4, JointType.ROLLABLE, "minecraft:empty", "minecraft:in_connector", BlockDirection.WEST, BlockDirection.UP, new BPos(0,16,9), 0, 0),
+					// beds
+					new JigsawBlock(46, JointType.ROLLABLE, "minecraft:empty", "minecraft:bed", BlockDirection.SOUTH, BlockDirection.UP, new BPos(7, 4, 8), 0, 0),
+    				new JigsawBlock(46, JointType.ROLLABLE, "minecraft:empty", "minecraft:bed", BlockDirection.SOUTH, BlockDirection.UP, new BPos(7, 4, 10), 0, 0),
+    				new JigsawBlock(46, JointType.ROLLABLE, "minecraft:empty", "minecraft:bed", BlockDirection.EAST, BlockDirection.UP, new BPos(11, 4, 8), 0, 0),
+    				new JigsawBlock(46, JointType.ROLLABLE, "minecraft:empty", "minecraft:bed", BlockDirection.EAST, BlockDirection.UP, new BPos(11, 4, 10), 0, 0)
+				),
 // intersection/intersection_2 id = 147
 			Arrays.asList(
 					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:intersection", "minecraft:empty", BlockDirection.WEST, BlockDirection.UP, new BPos(0,0,9), 1, 1),
 					new JigsawBlock(1, JointType.ROLLABLE, "minecraft:empty", "minecraft:first_corridor", BlockDirection.SOUTH, BlockDirection.UP, new BPos(13,0,21), 1, 1),
 					new JigsawBlock(4, JointType.ROLLABLE, "minecraft:empty", "minecraft:in_connector", BlockDirection.EAST, BlockDirection.UP, new BPos(22,4,4), 0, 0),
-					new JigsawBlock(23, JointType.ROLLABLE, "minecraft:empty", "minecraft:ominous_vault", BlockDirection.EAST, BlockDirection.UP, new BPos(19,9,4), 0, 0)
+					new JigsawBlock(23, JointType.ROLLABLE, "minecraft:empty", "minecraft:ominous_vault", BlockDirection.EAST, BlockDirection.UP, new BPos(19,9,4), 0, 0),
+					//beds
+					new JigsawBlock(46, JointType.ROLLABLE, "minecraft:empty", "minecraft:bed", BlockDirection.SOUTH, BlockDirection.UP, new BPos(7, 9, 2), 0, 0),
+    				new JigsawBlock(46, JointType.ROLLABLE, "minecraft:empty", "minecraft:bed", BlockDirection.NORTH, BlockDirection.UP, new BPos(7, 9, 6), 0, 0),
+    				new JigsawBlock(46, JointType.ROLLABLE, "minecraft:empty", "minecraft:bed", BlockDirection.SOUTH, BlockDirection.UP, new BPos(9, 9, 2), 0, 0),
+    				new JigsawBlock(46, JointType.ROLLABLE, "minecraft:empty", "minecraft:bed", BlockDirection.NORTH, BlockDirection.UP, new BPos(9, 9, 6), 0, 0)
 			),
 // intersection/intersection_3 id = 148
 			Arrays.asList(
 					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:intersection", "minecraft:empty", BlockDirection.WEST, BlockDirection.UP, new BPos(0,0,10), 1, 1),
 					new JigsawBlock(4, JointType.ROLLABLE, "minecraft:empty", "minecraft:in_connector", BlockDirection.SOUTH, BlockDirection.UP, new BPos(11,4,21), 0, 0),
-					new JigsawBlock(1, JointType.ROLLABLE, "minecraft:empty", "minecraft:first_corridor", BlockDirection.SOUTH, BlockDirection.UP, new BPos(11,17,21), 1, 1)
-			),
+					new JigsawBlock(1, JointType.ROLLABLE, "minecraft:empty", "minecraft:first_corridor", BlockDirection.SOUTH, BlockDirection.UP, new BPos(11,17,21), 1, 1),
+					// new beds
+					new JigsawBlock(46, JointType.ROLLABLE, "minecraft:empty", "minecraft:bed", BlockDirection.EAST, BlockDirection.UP, new BPos(9, 16, 8), 0, 0),
+    				new JigsawBlock(46, JointType.ROLLABLE, "minecraft:empty", "minecraft:bed", BlockDirection.EAST, BlockDirection.UP, new BPos(9, 16, 10), 0, 0),
+    				new JigsawBlock(46, JointType.ROLLABLE, "minecraft:empty", "minecraft:bed", BlockDirection.EAST, BlockDirection.UP, new BPos(9, 16, 12), 0, 0)
+				),
 // reward/ominous_vault id = 149
 			Collections.singletonList(
 					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:ominous_vault", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(1,1,0), 0, 0)
@@ -1407,6 +1421,59 @@ public class TrialChambersJigsawBlocks {
 			Arrays.asList(
     				new JigsawBlock(4, JointType.ROLLABLE, "minecraft:empty", "minecraft:in_connector", BlockDirection.EAST, BlockDirection.UP, new BPos(10, 13, 2), 0, 0),
     				new JigsawBlock(45, JointType.ROLLABLE, "minecraft:lower_corridor_connector", "minecraft:empty", BlockDirection.EAST, BlockDirection.UP, new BPos(10, 23, 2), 0, 0)
+			),
+
+			//beds
+			Collections.singletonList(
+					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:bed", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(0,1,0), 0, 0)
+			),
+			Collections.singletonList(
+					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:bed", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(0,1,0), 0, 0)
+			),
+			Collections.singletonList(
+					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:bed", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(0,1,0), 0, 0)
+			),
+			Collections.singletonList(
+					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:bed", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(0,1,0), 0, 0)
+			),
+
+			Collections.singletonList(
+					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:bed", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(0,1,0), 0, 0)
+			),
+			Collections.singletonList(
+					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:bed", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(0,1,0), 0, 0)
+			),
+			Collections.singletonList(
+					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:bed", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(0,1,0), 0, 0)
+			),
+			Collections.singletonList(
+					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:bed", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(0,1,0), 0, 0)
+			),
+			
+			Collections.singletonList(
+					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:bed", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(0,1,0), 0, 0)
+			),
+			Collections.singletonList(
+					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:bed", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(0,1,0), 0, 0)
+			),
+			Collections.singletonList(
+					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:bed", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(0,1,0), 0, 0)
+			),
+			Collections.singletonList(
+					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:bed", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(0,1,0), 0, 0)
+			),
+			
+			Collections.singletonList(
+					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:bed", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(0,1,0), 0, 0)
+			),
+			Collections.singletonList(
+					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:bed", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(0,1,0), 0, 0)
+			),
+			Collections.singletonList(
+					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:bed", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(0,1,0), 0, 0)
+			),
+			Collections.singletonList(
+					new JigsawBlock(45, JointType.ROLLABLE, "minecraft:bed", "minecraft:empty", BlockDirection.NORTH, BlockDirection.UP, new BPos(0,1,0), 0, 0)
 			)
     );
 

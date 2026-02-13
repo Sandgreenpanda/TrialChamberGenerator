@@ -192,7 +192,31 @@ public class TrialChambersStructureSize {
     		new BPos(19,10,24),
 
 			// new trap:
-			new BPos(11,27,5)
+			new BPos(11,27,5),
+
+			// beds are all the same size
+			new BPos(2,2,1),
+			new BPos(2,2,1),
+			new BPos(2,2,1),
+			new BPos(2,2,1),
+
+			new BPos(2,2,1),
+			new BPos(2,2,1),
+			new BPos(2,2,1),
+			new BPos(2,2,1),
+			
+			new BPos(2,2,1),
+			new BPos(2,2,1),
+			new BPos(2,2,1),
+			new BPos(2,2,1),
+			
+			new BPos(2,2,1),
+			new BPos(2,2,1),
+			new BPos(2,2,1),
+			new BPos(2,2,1)
+			
+
+
 
 
     );

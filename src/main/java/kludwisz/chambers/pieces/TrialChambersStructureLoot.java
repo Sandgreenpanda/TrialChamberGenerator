@@ -239,7 +239,25 @@ public class TrialChambersStructureLoot {
 			Collections.emptyList(),
 
 			// trap has none
-			Collections.emptyList()
+			Collections.emptyList(),
+
+			// beds obviously have no loot
+			Collections.emptyList(), //1
+			Collections.emptyList(), //2
+			Collections.emptyList(), //3
+			Collections.emptyList(), //4
+			Collections.emptyList(), //5
+			Collections.emptyList(), //6
+			Collections.emptyList(), //7
+			Collections.emptyList(), //8
+			Collections.emptyList(), //9
+			Collections.emptyList(), //10
+			Collections.emptyList(), //11
+			Collections.emptyList(), //12
+			Collections.emptyList(), //13
+			Collections.emptyList(), //14
+			Collections.emptyList(), //15
+			Collections.emptyList()  //16
 			
 	);
 }

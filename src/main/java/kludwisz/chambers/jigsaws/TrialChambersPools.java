@@ -65,7 +65,8 @@ public class TrialChambersPools {
 			45,  /* spawner/small_melee/cave_spider id = 42 */
 			45,  /* spawner/small_melee/silverfish id = 43 */
 			45,  /* spawner/small_melee/slime id = 44 */
-			45   /* empty id = 45 */
+			45,   /* empty id = 45 */
+			45   /* bed id = 46 */
 	};
 	
     private static final List< List<Pair<Integer, Integer>> > CHAMBER_POOLS_V2 = Arrays.asList(
@@ -410,7 +411,31 @@ public class TrialChambersPools {
 
     		/* empty id = 45 */ Collections.singletonList(
     				new Pair<>(170, 0)
+    		),
+
+			/* bed id = 46 */ 
+			Arrays.asList(
+    				new Pair<>(177, 3),
+					new Pair<>(178, 3),
+					new Pair<>(179, 3),
+					new Pair<>(180, 3),
+
+					new Pair<>(181, 3),
+					new Pair<>(182, 3),
+					new Pair<>(183, 3),
+					new Pair<>(184, 3),
+
+					new Pair<>(185, 3),
+					new Pair<>(186, 3),
+					new Pair<>(187, 3),
+					new Pair<>(188, 1), // pink bed rare for no reason?
+
+					new Pair<>(189, 3),
+					new Pair<>(190, 3),
+					new Pair<>(191, 3),
+					new Pair<>(192, 3)
     		)
+
     );
 
 	public static int[][] CHAMBER_POOLS;
