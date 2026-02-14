@@ -71,7 +71,8 @@ public class TrialChambersPools {
 			45,  /* spawner/small_melee/silverfish id = 43 */
 			45,  /* spawner/small_melee/slime id = 44 */
 			45,   /* empty id = 45 */
-			45   /* bed id = 46 */
+			45,   /* bed id = 46 */
+			45   /* disposal id = 47 */
 	};
 	
     private static final List< List<Pair<Integer, Integer>> > CHAMBER_POOLS_V2 = Arrays.asList(
@@ -109,9 +110,7 @@ public class TrialChambersPools {
 					new Pair<>(117, 1),
 					new Pair<>(118, 1),
 					new Pair<>(119, 1),
-					new Pair<>(115, 2),
-					// new disposal
-					new Pair<>(193, 1)
+					new Pair<>(115, 2)
 
 			),
 
@@ -442,6 +441,10 @@ public class TrialChambersPools {
 					new Pair<>(190, 3),
 					new Pair<>(191, 3),
 					new Pair<>(192, 3)
+    		),
+			/* disposal id = 47 */ 
+			Collections.singletonList(
+    				new Pair<>(193, 1)
     		)
 
     );

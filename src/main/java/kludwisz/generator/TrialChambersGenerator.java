@@ -42,8 +42,8 @@ public class TrialChambersGenerator {
     public final SequencedPriorityIterator<TrialChambersGenerator.Piece> placing = new SequencedPriorityIterator<>();
 
     private final BlockBox rootBox = BlockBox.empty();
-    private final TrialChambersGenerator.BlockJigsawInfo[] parentJigsawsArr = new TrialChambersGenerator.BlockJigsawInfo[50];
-    private final TrialChambersGenerator.BlockJigsawInfo[] childPieceJigsawBlocksArr = new TrialChambersGenerator.BlockJigsawInfo[50];
+    private final TrialChambersGenerator.BlockJigsawInfo[] parentJigsawsArr = new TrialChambersGenerator.BlockJigsawInfo[52];
+    private final TrialChambersGenerator.BlockJigsawInfo[] childPieceJigsawBlocksArr = new TrialChambersGenerator.BlockJigsawInfo[52];
 
 
 
@@ -273,7 +273,7 @@ public class TrialChambersGenerator {
 
     // Jigsaws & templates
 
-    private static final int[] indexArray = new int[50];
+    private static final int[] indexArray = new int[52];
     private static final int[] sortingCurrentIDs = new int[3];
     public static int getShuffledJigsawBlocks(JRand rand, TrialChambersGenerator.BlockJigsawInfo[] arr, int id, BlockRotation rotation, MutableBlockPos offset) {//taking 20% need to opti
         JigsawBlock[] blocks = JIGSAW_BLOCKS[id];

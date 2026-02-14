@@ -63,7 +63,11 @@ public class TrialChambersJigsawBlocks {
 					new JigsawBlock(6, JointType.ROLLABLE, "minecraft:empty", "minecraft:upper_addon", BlockDirection.DOWN, BlockDirection.SOUTH, new BPos(24,17,4), 0, 0),
 					new JigsawBlock(6, JointType.ROLLABLE, "minecraft:empty", "minecraft:upper_addon", BlockDirection.DOWN, BlockDirection.SOUTH, new BPos(24,17,9), 0, 0),
 					new JigsawBlock(6, JointType.ROLLABLE, "minecraft:empty", "minecraft:upper_addon", BlockDirection.DOWN, BlockDirection.SOUTH, new BPos(24,17,19), 0, 0),
-					new JigsawBlock(6, JointType.ROLLABLE, "minecraft:empty", "minecraft:upper_addon", BlockDirection.DOWN, BlockDirection.SOUTH, new BPos(24,17,24), 0, 0)
+					new JigsawBlock(6, JointType.ROLLABLE, "minecraft:empty", "minecraft:upper_addon", BlockDirection.DOWN, BlockDirection.SOUTH, new BPos(24,17,24), 0, 0),
+					// disposal:
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.EAST, new BPos(32,12,15), 0, 0),
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.EAST, new BPos(32,2,15), 0, 0),
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.NORTH, new BPos(5,9,1), 0, 0)
 			),
 // chamber/chamber_1 id = 1
 			Arrays.asList(
@@ -108,8 +112,13 @@ public class TrialChambersJigsawBlocks {
 					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(22,13,8), 0, 0),
 					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(22,13,13), 0, 0),
 					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(22,13,18), 0, 0),
-					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(22,13,23), 0, 0)
-			),
+					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(22,13,23), 0, 0),
+					// disposal:
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.WEST, new BPos(1,12,13), 0, 0),
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.EAST, new BPos(22,7,15), 0, 0),
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.SOUTH, new BPos(8,12,27), 0, 0),
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.NORTH, new BPos(10,12,1), 0, 0)
+				),
 // chamber/chamber_2 id = 2
 			Arrays.asList(
 					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.EAST, new BPos(1,3,5), 0, 0),
@@ -151,7 +160,12 @@ public class TrialChambersJigsawBlocks {
 					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(22,13,8), 0, 0),
 					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(22,13,13), 0, 0),
 					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(22,13,18), 0, 0),
-					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(22,13,23), 0, 0)
+					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(22,13,23), 0, 0),
+					// disposal:
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.WEST, new BPos(1,12,13), 0, 0),
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.EAST, new BPos(22,7,15), 0, 0),
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.SOUTH, new BPos(8,12,27), 0, 0),
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.NORTH, new BPos(10,12,1), 0, 0)
 			),
 // chamber/chamber_4 id = 3
 			Arrays.asList(
@@ -176,7 +190,11 @@ public class TrialChambersJigsawBlocks {
 					new JigsawBlock(30, JointType.ALIGNED, "minecraft:empty", "minecraft:spawner_connector", BlockDirection.NORTH, BlockDirection.UP, new BPos(14,8,14), 1, 1),
 					new JigsawBlock(30, JointType.ALIGNED, "minecraft:empty", "minecraft:spawner_connector", BlockDirection.WEST, BlockDirection.UP, new BPos(19,8,9), 1, 1),
 					new JigsawBlock(22, JointType.ALIGNED, "minecraft:empty", "minecraft:reward_connector", BlockDirection.EAST, BlockDirection.UP, new BPos(19,8,19), 0, 0),
-					new JigsawBlock(23, JointType.ROLLABLE, "minecraft:empty", "minecraft:ominous_vault", BlockDirection.NORTH, BlockDirection.UP, new BPos(4,9,3), 0, 0)
+					new JigsawBlock(23, JointType.ROLLABLE, "minecraft:empty", "minecraft:ominous_vault", BlockDirection.NORTH, BlockDirection.UP, new BPos(4,9,3), 0, 0),
+					// disposal:
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.WEST, new BPos(1,7,13), 0, 0),
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.WEST, new BPos(1,2,13), 0, 0),
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.NORTH, new BPos(10,7,1), 0, 0)
 			),
 // chamber/chamber_8 id = 4
 			Arrays.asList(
@@ -205,7 +223,10 @@ public class TrialChambersJigsawBlocks {
 					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.SOUTH, new BPos(13,18,1), 0, 0),
 					new JigsawBlock(29, JointType.ALIGNED, "minecraft:empty", "minecraft:spawner_connector", BlockDirection.SOUTH, BlockDirection.UP, new BPos(14,18,4), 0, 0),
 					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(17,18,3), 0, 0),
-					new JigsawBlock(23, JointType.ROLLABLE, "minecraft:empty", "minecraft:ominous_vault", BlockDirection.WEST, BlockDirection.UP, new BPos(3,19,9), 0, 0)
+					new JigsawBlock(23, JointType.ROLLABLE, "minecraft:empty", "minecraft:ominous_vault", BlockDirection.WEST, BlockDirection.UP, new BPos(3,19,9), 0, 0),
+					// disposal:
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.SOUTH, new BPos(13,12,12), 0, 0),
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.NORTH, new BPos(5,2,1), 0, 0)
 			),
 // chamber/entrance_cap id = 5
 			Collections.singletonList(
@@ -216,7 +237,11 @@ public class TrialChambersJigsawBlocks {
 					new JigsawBlock(9, JointType.ALIGNED, "minecraft:empty", "minecraft:center", BlockDirection.UP, BlockDirection.NORTH, new BPos(12,0,12), 0, 1),
 					new JigsawBlock(8, JointType.ROLLABLE, "minecraft:in_connector", "minecraft:entrance_cap", BlockDirection.NORTH, BlockDirection.UP, new BPos(14,3,0), 0, 0),
 					new JigsawBlock(8, JointType.ROLLABLE, "minecraft:in_connector", "minecraft:entrance_cap", BlockDirection.SOUTH, BlockDirection.UP, new BPos(14,3,28), 0, 0),
-					new JigsawBlock(8, JointType.ROLLABLE, "minecraft:in_connector", "minecraft:entrance_cap", BlockDirection.WEST, BlockDirection.UP, new BPos(0,8,14), 0, 0)
+					new JigsawBlock(8, JointType.ROLLABLE, "minecraft:in_connector", "minecraft:entrance_cap", BlockDirection.WEST, BlockDirection.UP, new BPos(0,8,14), 0, 0),
+					// disposal:
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.WEST, new BPos(0,7,13), 0, 0),
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.SOUTH, new BPos(13,2,28), 0, 0),
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.NORTH, new BPos(15,2,0), 0, 0)
 			),
 // chamber/pedestal id = 7
 			Arrays.asList(
@@ -268,7 +293,10 @@ public class TrialChambersJigsawBlocks {
 					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(32,8,13), 0, 0),
 					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(32,8,18), 0, 0),
 					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(32,8,23), 0, 0),
-					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(32,8,28), 0, 0)
+					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(32,8,28), 0, 0),
+					// disposal:
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.EAST, new BPos(32,2,20), 0, 0),
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.NORTH, new BPos(20,7,1), 0, 0)
 			),
 // chamber/slanted id = 8
 			Arrays.asList(
@@ -307,7 +335,10 @@ public class TrialChambersJigsawBlocks {
 					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(27,8,8), 0, 0),
 					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(27,8,13), 0, 0),
 					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(27,8,18), 0, 0),
-					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(27,8,23), 0, 0)
+					new JigsawBlock(20, JointType.ALIGNED, "minecraft:empty", "minecraft:copper_dispenser", BlockDirection.DOWN, BlockDirection.WEST, new BPos(27,8,23), 0, 0),
+					// disposal:
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.EAST, new BPos(27,2,15), 0, 0),
+					new JigsawBlock(47, JointType.ALIGNED, "minecraft:empty", "minecraft:disposal", BlockDirection.UP, BlockDirection.NORTH, new BPos(15,7,1), 0, 0)
 			),
 // chamber/addon/c1_breeze id = 9
 			Arrays.asList(
@@ -1548,7 +1579,7 @@ public class TrialChambersJigsawBlocks {
 
 	public static final int[][] PIECE_JIGSAW_SORT_OFFSETS = new int[JIGSAW_BLOCKS_V2.size()][3];
 	static {
-		for (int pieceID = 0; pieceID < 170; pieceID++) {
+		for (int pieceID = 0; pieceID < 193; pieceID++) { // idk, but i added until 193 ids
 			List<JigsawBlock> pieceJigsaws = JIGSAW_BLOCKS_V2.get(pieceID);
 			pieceJigsaws.sort(
 					Comparator.comparingInt(
