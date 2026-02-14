@@ -435,12 +435,12 @@ public class TrialChambersPools {
 					new Pair<>(185, 3),
 					new Pair<>(186, 3),
 					new Pair<>(187, 3),
-					new Pair<>(188, 1), // pink bed rare for no reason?
+					new Pair<>(188 ,3), 
 
 					new Pair<>(189, 3),
 					new Pair<>(190, 3),
 					new Pair<>(191, 3),
-					new Pair<>(192, 3)
+					new Pair<>(192, 1) // pink bed rare for no reason?
     		),
 			/* disposal id = 47 */ 
 			Collections.singletonList(

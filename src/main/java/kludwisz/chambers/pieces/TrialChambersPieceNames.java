@@ -192,22 +192,26 @@ public class TrialChambersPieceNames {
 			"hallway/trapped_staircase", /*id = 176*/
 
 			// 16 beds
-			"decor/black_bed",  /*id = 177*/
-			"decor/blue_bed",  /*id = 178*/
-			"decor/brown_bed",  /*id = 179*/
-			"decor/cyan_bed",  /*id = 180*/
-			"decor/gray_bed",  /*id = 181*/
-			"decor/green_bed",  /*id = 182*/
-			"decor/light_blue_bed",  /*id = 183*/
-			"decor/light_gray_bed",  /*id = 184*/
+			"decor/white_bed",  /*id = 177*/
+			"decor/light_gray_bed",  /*id = 178*/
+			"decor/gray_bed",  /*id = 179*/
+			"decor/black_bed",  /*id = 180*/
+			"decor/brown_bed",  /*id = 181*/
+			"decor/red_bed",  /*id = 182*/
+			"decor/orange_bed",  /*id = 183*/
+			"decor/yellow_bed",   /*id = 184*/
 			"decor/lime_bed",  /*id = 185*/
-			"decor/magenta_bed",  /*id = 186*/
-			"decor/orange_bed",  /*id = 187*/
-			"decor/pink_bed",  /*id = 188*/
-			"decor/purple_bed",  /*id = 189*/
-			"decor/red_bed",  /*id = 190*/
-			"decor/white_bed",  /*id = 191*/
-			"decor/yellow_bed",   /*id = 192*/
+			"decor/green_bed",  /*id = 186*/
+			"decor/cyan_bed",  /*id = 187*/
+			"decor/light_blue_bed",  /*id = 188*/
+			"decor/blue_bed",  /*id = 189*/
+			"decor/purple_bed",  /*id = 190*/
+			"decor/magenta_bed",  /*id = 191*/
+			"decor/pink_bed",  /*id = 192*/
+		
+		
+		
+	
 
 			//disposal
 
