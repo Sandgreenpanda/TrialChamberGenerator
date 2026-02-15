@@ -147,12 +147,13 @@ public class TrialChambersPools {
 					new Pair<>(144, 1),
 
 					// new encounters and traps:
+					new Pair<>(176, 1),
 					new Pair<>(171, 1),
 					new Pair<>(172, 1),
 					new Pair<>(173, 1),
 					new Pair<>(174, 1),
-					new Pair<>(175, 1),
-					new Pair<>(176, 1)
+					new Pair<>(175, 1)
+					
 
 
 			),
