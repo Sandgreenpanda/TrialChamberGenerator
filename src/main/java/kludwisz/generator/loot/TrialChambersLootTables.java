@@ -6,6 +6,7 @@ import com.seedfinding.mcfeature.loot.LootPool;
 import com.seedfinding.mcfeature.loot.LootTable;
 import com.seedfinding.mcfeature.loot.entry.ItemEntry;
 import com.seedfinding.mcfeature.loot.function.ApplyDamageFunction;
+import com.seedfinding.mcfeature.loot.function.EnchantRandomlyFunction;
 import com.seedfinding.mcfeature.loot.function.SetCountFunction;
 import com.seedfinding.mcfeature.loot.roll.ConstantRoll;
 import com.seedfinding.mcfeature.loot.roll.UniformRoll;
@@ -48,18 +49,43 @@ public class TrialChambersLootTables {
 	
 	public static final Supplier<LootTable> CORRIDOR_BARREL = () -> new LootTable(
 			new LootPool(new UniformRoll(1.0F, 3.0F),
-				new ItemEntry(Items.TUFF, 3).apply(version -> SetCountFunction.uniform(8.0F, 20.0F)),
-				new ItemEntry(Items.SCAFFOLDING, 2).apply(version -> SetCountFunction.uniform(2.0F, 10.0F)),
-				new ItemEntry(Items.BAMBOO_PLANKS, 2).apply(version -> SetCountFunction.uniform(3.0F, 6.0F)),
-				new ItemEntry(Items.TORCH, 2).apply(version -> SetCountFunction.uniform(3.0F, 6.0F)),
-				new ItemEntry(Items.BAMBOO_HANGING_SIGN, 2).apply(version -> SetCountFunction.uniform(1.0F, 4.0F)),
-				new ItemEntry(Items.ENDER_PEARL, 2).apply(version -> SetCountFunction.uniform(1.0F, 2.0F)),
+				new ItemEntry(Items.IRON_AXE, 1).apply(version -> new ApplyDamageFunction()).apply(version -> new EnchantRandomlyFunction(Items.IRON_AXE)),
+				new ItemEntry(Items.HONEYCOMB, 1).apply(version -> SetCountFunction.uniform(2.0F, 8.0F)),
 				new ItemEntry(Items.STONE_AXE, 2).apply(version -> new ApplyDamageFunction()),
 				new ItemEntry(Items.STONE_PICKAXE, 2).apply(version -> new ApplyDamageFunction()),
-				new ItemEntry(Items.HONEYCOMB, 1).apply(version -> SetCountFunction.uniform(2.0F, 8.0F)),
-				new ItemEntry(Items.IRON_AXE, 1).apply(version -> new ApplyDamageFunction())
+				new ItemEntry(Items.ENDER_PEARL, 2).apply(version -> SetCountFunction.uniform(1.0F, 2.0F)),
+				new ItemEntry(Items.BAMBOO_HANGING_SIGN, 2).apply(version -> SetCountFunction.uniform(1.0F, 4.0F)),
+				new ItemEntry(Items.BAMBOO_PLANKS, 2).apply(version -> SetCountFunction.uniform(3.0F, 6.0F)),
+				new ItemEntry(Items.SCAFFOLDING, 2).apply(version -> SetCountFunction.uniform(2.0F, 10.0F)),
+				new ItemEntry(Items.TORCH, 2).apply(version -> SetCountFunction.uniform(3.0F, 6.0F)),
+				new ItemEntry(Items.TUFF, 3).apply(version -> SetCountFunction.uniform(8.0F, 20.0F))
 			)
 	);
+
+	//{
+          //"type": "minecraft:item",
+          //"functions": [
+          //  {
+              //"add": false,
+             // "count": 1.0,
+            //  "function": "minecraft:set_count"
+           // },
+          ////  {
+         //     "add": false,
+        //      "damage": {
+                //"type": "minecraft:uniform",
+               // "max": 0.9,
+              //  "min": 0.4
+             //// },
+            //  "function": "minecraft:set_damage"
+           // },
+          //  {
+        //      "function": "minecraft:enchant_randomly",
+      //        "options": "#minecraft:on_random_loot"
+          ////  }
+        //  ],
+      //    "name": "minecraft:iron_axe"
+        //},
 	
 	public static final Supplier<LootTable> INTERSECTION_CHEST = () -> new LootTable(
 			new LootPool(new UniformRoll(1.0F, 3.0F),
