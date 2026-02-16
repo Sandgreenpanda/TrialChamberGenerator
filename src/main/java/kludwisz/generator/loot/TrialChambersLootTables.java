@@ -1,4 +1,4 @@
-package kludwisz.chambers.loot;
+package kludwisz.generator.loot;
 
 import java.util.function.Supplier;
 

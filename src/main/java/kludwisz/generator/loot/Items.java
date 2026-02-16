@@ -1,4 +1,4 @@
-package kludwisz.chambers.loot;
+package kludwisz.generator.loot;
 
 import com.seedfinding.mcfeature.loot.item.Item;
 
